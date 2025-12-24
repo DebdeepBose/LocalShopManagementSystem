@@ -17,13 +17,13 @@ const ChooseToStart = () => {
           const w = window.innerWidth;
 
           if (w < 768) {
-            return i % 2 === 0 ? 475 : -475;
+            return i % 2 === 0 ? 485 : -485;
           }
           return i % 2 === 0 ? 500 : -500;
         },
         rotation: 340,
         borderRadius: "25%",
-        scale: window.innerWidth < 768 ? 1.25 : 1.5,
+        scale: window.innerWidth < 768 ? 1.15 : 1.5,
         ease: "power1.inOut",
         scrollTrigger: {
           trigger: box,
@@ -56,7 +56,7 @@ const ChooseToStart = () => {
   md:px-0
 "
     >
-      <h2 className="mb-30  text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-200 tracking-tight">
+      <h2 className="mb-20 md:mb-30  text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-200 tracking-tight">
         Login As
       </h2>
 
@@ -64,7 +64,7 @@ const ChooseToStart = () => {
         className="w-full flex items-center justify-center gap-4 sm:gap-8 md:gap-12"
         ref={scrollRef}
       >
-        <div className="scroll-box w-32 h-32 md:w-66 md:h-66 md:rotate-[5deg] rounded-2xl bg-gradient-to-br from-pink-400 to-fuchsia-500 shadow-lg brightness-90 flex items-center justify-center">
+        <div className="scroll-box w-32 h-32 md:w-66 md:h-66 rotate-90 md:rotate-[5deg] rounded-2xl bg-gradient-to-br from-pink-400 to-fuchsia-500 shadow-lg brightness-90 flex items-center justify-center">
           <div className="hover:scale-110 transition-all duration-200 active:scale-90 rotate-[20deg] md:rotate-[47deg] flex flex-col items-center">
             <Store className="w-18 h-18 sm:w-24 sm:h-24 text-fuchsia-950" />
             <span className="text-lg sm:text-2xl md:text-3xl font-extrabold tracking-wide text-fuchsia-950 font-[cursive]">
@@ -73,7 +73,7 @@ const ChooseToStart = () => {
           </div>
         </div>
 
-        <div className="scroll-box w-32 h-32 md:w-66 md:h-66  md:rotate-[5deg] rounded-2xl bg-gradient-to-br from-orange-400 to-amber-500 shadow-lg brightness-90 flex items-center justify-center">
+        <div className="scroll-box w-32 h-32 md:w-66 md:h-66 rotate-180  md:rotate-[5deg] rounded-2xl bg-gradient-to-br from-orange-400 to-amber-500 shadow-lg brightness-90 flex items-center justify-center">
           <div className="hover:scale-110 transition-all duration-200 active:scale-90 rotate-[20deg] md:rotate-[47deg] flex flex-col items-center">
             <ShoppingBag className="w-18 h-18 sm:w-24 sm:h-24 text-amber-900" />
             <span className="text-lg sm:text-2xl md:text-3xl font-extrabold tracking-wide text-amber-900 font-[cursive]">
