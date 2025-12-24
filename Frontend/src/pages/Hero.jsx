@@ -79,7 +79,8 @@ const Hero = () => {
           text-xl
           md:text-2xl
           mb-6 md:mb-8
-          text-slate-200
+          text-slate-300
+          font-semibold
         "
         >
           Shop Management Made Easy
@@ -93,7 +94,7 @@ const Hero = () => {
           bg-white/25 backdrop-blur-md
           transition-all duration-300
           hover:bg-white/40 hover:-translate-y-0.5
-          text-black font-semibold
+          text-black font-semibold active:scale-90 hover:scale-105
         "
         >
           Get Started
