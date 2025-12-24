@@ -17,7 +17,7 @@ const ChooseToStart = () => {
           const w = window.innerWidth;
 
           if (w < 768) {
-            return i % 2 === 0 ? 500 : 500;
+            return i % 2 === 0 ? 450 : -450;
           }
           return i % 2 === 0 ? 500 : -500;
         },
