@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react"; 
 
-const ManagerRegister = () => {
+const CustomerRegister = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-slate-900 px-4 relative">
       
@@ -19,15 +19,13 @@ const ManagerRegister = () => {
         shadow-[0_0_40px_rgba(139,92,246,0.15)]">
 
         <h2 className="text-2xl font-bold text-white mb-6">
-          Register as an Admin
+          Register as a Customer
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {[
             "First name",
             "Last name",
-            "Phone Number",
-            "UPI ID",
             "Email",
             "Password",
           ].map((label) => (
@@ -49,7 +47,7 @@ const ManagerRegister = () => {
           <p className="text-sm text-gray-300">
             Already registered?{" "}
             <Link
-              to="/manager/login"
+              to="/customer/login"
               className="text-violet-400 font-medium hover:underline"
             >
               Login
@@ -70,4 +68,4 @@ const ManagerRegister = () => {
   );
 };
 
-export default ManagerRegister;
+export default CustomerRegister;

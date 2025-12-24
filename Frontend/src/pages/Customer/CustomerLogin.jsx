@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 
-const ManagerLogin = () => {
+const CustomerLogin = () => {
   return (
     <div className="min-h-screen relative bg-slate-900 px-4 flex items-center justify-center">
-      
       <Link
         to="/"
         className="absolute top-6 left-6 w-10 h-10 flex items-center justify-center
@@ -19,7 +18,7 @@ const ManagerLogin = () => {
           border border-white/20
           shadow-[0_0_40px_rgba(139,92,246,0.15)] z-10"
       >
-        <h2 className="text-2xl font-bold text-white mb-6">Manager Login</h2>
+        <h2 className="text-2xl font-bold text-white mb-6">Customer Login</h2>
 
         <div className="grid grid-cols-1 gap-5">
           <input
@@ -49,7 +48,7 @@ const ManagerLogin = () => {
           <p className="text-sm text-gray-300">
             Not registered?{" "}
             <Link
-              to="/manager/register"
+              to="/customer/register"
               className="text-violet-400 font-medium hover:underline"
             >
               Register
@@ -72,4 +71,4 @@ const ManagerLogin = () => {
   );
 };
 
-export default ManagerLogin;
+export default CustomerLogin;

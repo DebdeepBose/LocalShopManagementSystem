@@ -35,7 +35,8 @@ const ChooseToStart = () => {
           </span>
         </div>
 
-        <div className="rounded-2xl bg-gradient-to-br from-orange-400 to-amber-500 shadow-lg flex flex-col items-center justify-center py-12 transition-all duration-300 hover:scale-105 active:scale-95">
+        <div onClick={() => navigate("/customer")} 
+        className="rounded-2xl bg-gradient-to-br from-orange-400 to-amber-500 shadow-lg flex flex-col items-center justify-center py-12 transition-all duration-300 hover:scale-105 active:scale-95">
           <ShoppingBag className="w-16 h-16 md:w-20 md:h-20 text-amber-900 mb-3" />
           <span className="text-lg md:text-3xl font-extrabold text-amber-900 font-[cursive]">
             Customer
