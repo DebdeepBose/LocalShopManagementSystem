@@ -1,1 +1,11 @@
 @import "tailwindcss";
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px rgba(0, 0, 0, 0)nset; 
+  -webkit-text-fill-color: #f0f0f0; 
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input:-moz-autofill {
+  box-shadow: 0 0 0px 1000px rgba(0,0,0,0.4) inset;
+  -moz-text-fill-color: #f0f0f0;
+}

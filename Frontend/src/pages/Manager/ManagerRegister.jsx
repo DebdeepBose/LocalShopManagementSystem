@@ -1,8 +1,18 @@
 import { Link } from "react-router-dom";
+import { ArrowLeft } from "lucide-react"; // Lucide icon
 
 const ManagerRegister = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-900 px-4">
+    <div className="min-h-screen flex items-center justify-center bg-slate-900 px-4 relative">
+      
+      <Link
+        to="/"
+        className="absolute top-6 left-6 w-10 h-10 flex items-center justify-center
+                   bg-black/40 rounded-full text-white hover:bg-black/60 transition"
+      >
+        <ArrowLeft className="w-5 h-5" />
+      </Link>
+
       <div className="w-full max-w-3xl rounded-2xl p-6 md:p-10
         bg-white/10 backdrop-blur-2xl
         border border-white/20
@@ -47,17 +57,11 @@ const ManagerRegister = () => {
           </p>
 
           <div className="flex flex-col md:flex-row-reverse gap-4">
-            <button className="h-12 px-6 rounded-lg
-              bg-gradient-to-r from-violet-600 to-fuchsia-600
+            <button className="h-12 px-6 rounded-lg active:scale-95
+              bg-gradient-to-r from-violet-600 to-fuchsia-500
               text-white font-medium
               hover:opacity-90 transition">
               Register
-            </button>
-
-            <button className="h-12 px-6 rounded-lg
-              border border-white/30 text-white
-              hover:bg-white/10 transition">
-              Cancel
             </button>
           </div>
         </div>
