@@ -16,8 +16,8 @@ const ChooseToStart = () => {
         x: () => {
           const w = window.innerWidth;
 
-          if (w < 640) return i % 2 === 0 ? 425 : -425;
-          if (w < 1024) return i % 2 === 0 ? 425 : -425;
+          if (w < 640) return i % 2 === 0 ? 430 : -430;
+          if (w < 1024) return i % 2 === 0 ? 430 : -430;
           return i % 2 === 0 ? 500 : -500;
         },
         rotation: 340,
