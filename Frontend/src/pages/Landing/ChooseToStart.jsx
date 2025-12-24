@@ -16,7 +16,7 @@ const ChooseToStart = () => {
         x: () => {
           const w = window.innerWidth;
 
-          if (w < 640) return i % 2 === 0 ? 200 : -200;
+          if (w < 640) return i % 2 === 0 ? 250 : -250;
           if (w < 1024) return i % 2 === 0 ? 260 : -260;
           return i % 2 === 0 ? 500 : -500;
         },
