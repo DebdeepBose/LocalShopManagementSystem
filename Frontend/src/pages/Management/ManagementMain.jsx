@@ -10,11 +10,11 @@ import {
 
 const ManagementMain = () => {
   return (
-    <div className=" bg-violet-300 rounded-xl px-2 py-2 flex justify-center h-fit">
+    <div className=" bg-violet-300 rounded-xl md:px-1 md:py-1 px-2 py-2 flex justify-center h-fit">
       <div
         className="
           w-full h-fit
-          bg-white rounded-xl
+          bg-gradient-to-br bg-white rounded-xl
           shadow-[0_4px_20px_rgba(0,0,0,0.08)]
           py-10 md:py-16 px-2 md:px-8
         "
