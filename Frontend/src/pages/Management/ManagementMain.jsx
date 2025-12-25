@@ -13,7 +13,7 @@ const ManagementMain = () => {
     <div className="min-h-screen bg-violet-300 rounded-xl px-2 py-2 flex justify-center ">
       <div
         className="
-          md:w-full
+          w-full
           bg-white rounded-xl
           shadow-[0_4px_20px_rgba(0,0,0,0.08)]
           py-8 md:py-16 px-2 md:px-8
@@ -26,9 +26,8 @@ const ManagementMain = () => {
     md:grid-cols-3       /* medium screens */
     lg:grid-cols-3       /* large screens */
     xl:grid-cols-3       /* extra large screens */
-    gap-6                /* default gap */
     sm:gap-8
-    md:gap-12
+    md:gap-y-16
     justify-items-center"
         >
           <ManagementDashboardCard
