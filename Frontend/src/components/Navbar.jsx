@@ -6,6 +6,7 @@ const Navbar = () => {
         bg-white/80 backdrop-blur-md
         border-b border-gray-200 mx-4 mt-2
         shadow-[0_4px_12px_rgba(0,0,0,0.08)]
+        border-l-violet-400 border-l-4
       "
     >
       <h1 className="text-lg font-semibold text-gray-800">
