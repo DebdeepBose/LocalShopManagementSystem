@@ -21,7 +21,7 @@ const ManagementMain = () => {
       >
         <div
           className="grid 
-    grid-cols-1          /* extra small screens */
+    
     sm:grid-cols-2       /* small screens */
     md:grid-cols-3       /* medium screens */
     lg:grid-cols-3       /* large screens */
