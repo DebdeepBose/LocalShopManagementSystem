@@ -6,12 +6,12 @@ const Navbar = () => {
     <nav
       className="
         h-14 px-6 flex items-center justify-between mt-2
-        bg-white/10 backdrop-blur-xl
+        bg-white/10 
         border border-white/15
         border-t-2 border-t-fuchsia-500
         shadow-[0_6px_24px_rgba(0,0,0,0.45)]
         relative select-none
-        mx-7 rounded-lg
+        mx-6 rounded-lg
       "
     >
 
@@ -25,7 +25,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-2">
           <Link
-            to="/management"
+            to="/management/managementMain"
             title="Dashboard"
             className="p-2 rounded-lg text-slate-300 hover:text-white hover:bg-white/10 transition"
           >

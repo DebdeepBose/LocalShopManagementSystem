@@ -10,11 +10,11 @@ import {
 
 const ManagementMain = () => {
   return (
-    <div className="bg-slate-900 rounded-xl md:px-1 md:py-1 px-2 py-2 flex justify-center h-fit">
+    
       <div
         className="
           w-full h-fit
-          bg-white/10 backdrop-blur-xl
+          bg-white/10 
           rounded-xl
           border border-white/20
           shadow-[0_8px_32px_rgba(0,0,0,0.45)]
@@ -58,7 +58,7 @@ const ManagementMain = () => {
           />
         </div>
       </div>
-    </div>
+    
   );
 };
 
