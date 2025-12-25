@@ -10,13 +10,13 @@ import {
 
 const ManagementMain = () => {
   return (
-    <div className="min-h-screen bg-violet-300 rounded-xl px-2 py-2 flex justify-center ">
+    <div className=" bg-violet-300 rounded-xl px-2 py-2 flex justify-center h-fit">
       <div
         className="
-          w-full
+          w-full h-fit
           bg-white rounded-xl
           shadow-[0_4px_20px_rgba(0,0,0,0.08)]
-          py-8 md:py-16 px-2 md:px-8
+          py-10 md:py-16 px-2 md:px-8
         "
       >
         <div
@@ -26,7 +26,7 @@ const ManagementMain = () => {
     md:grid-cols-3       /* medium screens */
     lg:grid-cols-3       /* large screens */
     xl:grid-cols-3       /* extra large screens */
-    sm:gap-8
+    gap-y-8
     md:gap-y-16
     justify-items-center"
         >
