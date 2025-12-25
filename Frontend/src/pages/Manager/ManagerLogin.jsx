@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const ManagerLogin = () => {
+  const navi = useNavigate();
+
   return (
     <div className="min-h-screen relative bg-slate-900 px-4 flex items-center justify-center">
-      
       <Link
         to="/"
         className="absolute top-6 left-6 w-10 h-10 flex items-center justify-center
@@ -58,6 +60,7 @@ const ManagerLogin = () => {
 
           <div className="flex flex-col md:flex-row-reverse gap-4">
             <button
+              onClick={() => navi("/management/managementMain")}
               className="h-12 px-6 rounded-lg active:scale-95
                 bg-gradient-to-r from-violet-600 to-fuchsia-500
                 text-white font-medium
