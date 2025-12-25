@@ -3,13 +3,22 @@ import Navbar from "./Navbar";
 
 const Layout = () => {
   return (
-    <div className="flex min-h-screen pt-1 gap-4 pl-2 pb-2">
-      <main className="flex-1 flex flex-col">
+    <div className="min-h-screen bg-slate-900 flex justify-center">
+      {/* Glass wrapper */}
+      <div
+        className="
+          w-full
+          bg-white/5 backdrop-blur-xl
+          border border-white/10
+          shadow-[0_8px_40px_rgba(0,0,0,0.5)]
+        "
+      >
         <Navbar />
-        <div className="p-4">
+
+        <main className="p-4 md:p-6">
           <Outlet />
-        </div>
-      </main>
+        </main>
+      </div>
     </div>
   );
 };
