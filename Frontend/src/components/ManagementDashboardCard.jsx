@@ -6,7 +6,8 @@ const ManagementDashboardCard = ({ text, icons }) => {
       className="
         group relative
         w-full max-w-[8rem] md:max-w-full h-32
-        md:w-88 md:h-52
+        md:w-64 md:h-54
+        lg:w-88 lg:h-52
 
         bg-violet-400
         flex items-center justify-center

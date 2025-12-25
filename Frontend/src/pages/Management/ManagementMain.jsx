@@ -27,7 +27,8 @@ const ManagementMain = () => {
     lg:grid-cols-3       /* large screens */
     xl:grid-cols-3       /* extra large screens */
     gap-y-8
-    md:gap-y-16
+    lg:gap-y-24 md:gap-x-12
+    lg:gap-x-0
     justify-items-center"
         >
           <ManagementDashboardCard
