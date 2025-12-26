@@ -26,8 +26,6 @@ const AppRoutes = () => {
             path="/management/managementMain"
             element={<ManagementMain />}
           />
-          <Route path="/dashboard" element={<h1>Dashboard</h1>} />
-          <Route path="/products" element={<h1>Products</h1>} />
         </Route>
       </Routes>
     </BrowserRouter>

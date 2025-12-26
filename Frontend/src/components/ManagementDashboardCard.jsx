@@ -8,6 +8,7 @@ const ManagementDashboardCard = ({ text, icons }) => {
         w-full max-w-[8rem] md:max-w-full h-32
         md:w-64 md:h-54
         lg:w-88 lg:h-52
+        select-none
 
         active:scale-95
 
