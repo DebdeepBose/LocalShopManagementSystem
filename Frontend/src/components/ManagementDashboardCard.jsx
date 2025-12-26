@@ -35,7 +35,7 @@ const ManagementDashboardCard = ({ text, icons }) => {
         md:hover:after:w-full md:hover:after:h-full md:hover:after:rounded-[15px]
       "
     >
-      {/* ICON */}
+  
       <span
         className="
           relative z-20
