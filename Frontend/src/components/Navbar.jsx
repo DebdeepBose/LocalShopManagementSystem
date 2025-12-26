@@ -5,13 +5,13 @@ const Navbar = () => {
   return (
     <nav
       className="
-        h-14 px-8 md:px-6 flex items-center justify-between mt-2
+        h-14 px-6 flex items-center justify-between mt-2
         bg-white/10 
         border border-white/15
         border-t-2 border-t-fuchsia-500
         shadow-[0_6px_24px_rgba(0,0,0,0.45)]
         relative select-none
-        mx-6 rounded-lg
+        mx-4 md:mx-6 rounded-lg
       "
     >
 

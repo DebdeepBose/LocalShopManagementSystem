@@ -4,7 +4,7 @@ const ManagementDashboardCard = ({ text, icons }) => {
   return (
     <div
       className="
-        group relative
+        group relative 
         w-full max-w-[8rem] md:max-w-full h-32
         md:w-64 md:h-54
         lg:w-88 lg:h-52
@@ -17,7 +17,7 @@ const ManagementDashboardCard = ({ text, icons }) => {
         flex flex-col md:flex items-center justify-center
         font-bold rounded-[15px] cursor-pointer
 
-        shadow-[0_10px_40px_rgba(0,0,0,0.6)]
+         shadow-[0_0_40px_rgba(139,92,246,0.05)]
         transform transition-all duration-500
         md:hover:-translate-y-2 md:hover:scale-105
 
@@ -51,8 +51,9 @@ const ManagementDashboardCard = ({ text, icons }) => {
       {text && (
         <span
           className="
-            mt-2 text-xs sm:text-sm
-            text-violet-500
+            mt-2 text-s
+            text-white
+            font-semibold
             md:hidden
           "
         >
